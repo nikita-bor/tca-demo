@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		146D164D2864A16200F59B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D164C2864A16200F59B0C /* AppDelegate.swift */; };
 		146D164F2864A16200F59B0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D164E2864A16200F59B0C /* SceneDelegate.swift */; };
-		146D16512864A16200F59B0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16502864A16200F59B0C /* ViewController.swift */; };
-		146D16542864A16200F59B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146D16522864A16200F59B0C /* Main.storyboard */; };
 		146D16562864A16300F59B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146D16552864A16300F59B0C /* Assets.xcassets */; };
 		146D16592864A16300F59B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146D16572864A16300F59B0C /* LaunchScreen.storyboard */; };
+		146D16622864A19E00F59B0C /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 146D16612864A19E00F59B0C /* ComposableArchitecture */; };
+		146D166A2864A21C00F59B0C /* StatisticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16642864A21C00F59B0C /* StatisticsEvent.swift */; };
+		146D166B2864A21C00F59B0C /* DirectionScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16652864A21C00F59B0C /* DirectionScreenView.swift */; };
+		146D166C2864A21C00F59B0C /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16662864A21C00F59B0C /* TicketsView.swift */; };
+		146D166D2864A21C00F59B0C /* DirectionScreenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16672864A21C00F59B0C /* DirectionScreenResponse.swift */; };
+		146D166E2864A21C00F59B0C /* DirectionScreenItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16682864A21C00F59B0C /* DirectionScreenItemView.swift */; };
+		146D166F2864A21C00F59B0C /* HotelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16692864A21C00F59B0C /* HotelsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		146D16492864A16200F59B0C /* tca-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tca-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D164C2864A16200F59B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		146D164E2864A16200F59B0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		146D16502864A16200F59B0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		146D16532864A16200F59B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		146D16552864A16300F59B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		146D16582864A16300F59B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		146D165A2864A16300F59B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146D16642864A21C00F59B0C /* StatisticsEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsEvent.swift; sourceTree = "<group>"; };
+		146D16652864A21C00F59B0C /* DirectionScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionScreenView.swift; sourceTree = "<group>"; };
+		146D16662864A21C00F59B0C /* TicketsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		146D16672864A21C00F59B0C /* DirectionScreenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionScreenResponse.swift; sourceTree = "<group>"; };
+		146D16682864A21C00F59B0C /* DirectionScreenItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionScreenItemView.swift; sourceTree = "<group>"; };
+		146D16692864A21C00F59B0C /* HotelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146D16622864A19E00F59B0C /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +68,25 @@
 			children = (
 				146D164C2864A16200F59B0C /* AppDelegate.swift */,
 				146D164E2864A16200F59B0C /* SceneDelegate.swift */,
-				146D16502864A16200F59B0C /* ViewController.swift */,
-				146D16522864A16200F59B0C /* Main.storyboard */,
+				146D16682864A21C00F59B0C /* DirectionScreenItemView.swift */,
+				146D16672864A21C00F59B0C /* DirectionScreenResponse.swift */,
+				146D16652864A21C00F59B0C /* DirectionScreenView.swift */,
+				146D16692864A21C00F59B0C /* HotelsView.swift */,
+				146D16642864A21C00F59B0C /* StatisticsEvent.swift */,
+				146D16662864A21C00F59B0C /* TicketsView.swift */,
+				146D16632864A1F500F59B0C /* iOS */,
+			);
+			path = "tca-demo";
+			sourceTree = "<group>";
+		};
+		146D16632864A1F500F59B0C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
 				146D16552864A16300F59B0C /* Assets.xcassets */,
 				146D16572864A16300F59B0C /* LaunchScreen.storyboard */,
 				146D165A2864A16300F59B0C /* Info.plist */,
 			);
-			path = "tca-demo";
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +105,9 @@
 			dependencies = (
 			);
 			name = "tca-demo";
+			packageProductDependencies = (
+				146D16612864A19E00F59B0C /* ComposableArchitecture */,
+			);
 			productName = "tca-demo";
 			productReference = 146D16492864A16200F59B0C /* tca-demo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +136,9 @@
 				Base,
 			);
 			mainGroup = 146D16402864A16200F59B0C;
+			packageReferences = (
+				146D16602864A19E00F59B0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 146D164A2864A16200F59B0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +155,6 @@
 			files = (
 				146D16592864A16300F59B0C /* LaunchScreen.storyboard in Resources */,
 				146D16562864A16300F59B0C /* Assets.xcassets in Resources */,
-				146D16542864A16200F59B0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +165,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146D16512864A16200F59B0C /* ViewController.swift in Sources */,
+				146D166B2864A21C00F59B0C /* DirectionScreenView.swift in Sources */,
 				146D164D2864A16200F59B0C /* AppDelegate.swift in Sources */,
+				146D166D2864A21C00F59B0C /* DirectionScreenResponse.swift in Sources */,
+				146D166A2864A21C00F59B0C /* StatisticsEvent.swift in Sources */,
 				146D164F2864A16200F59B0C /* SceneDelegate.swift in Sources */,
+				146D166F2864A21C00F59B0C /* HotelsView.swift in Sources */,
+				146D166E2864A21C00F59B0C /* DirectionScreenItemView.swift in Sources */,
+				146D166C2864A21C00F59B0C /* TicketsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		146D16522864A16200F59B0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				146D16532864A16200F59B0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		146D16572864A16300F59B0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +313,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5393MUFBLF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "tca-demo/Info.plist";
+				INFOPLIST_FILE = "tca-demo/iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +341,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5393MUFBLF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "tca-demo/Info.plist";
+				INFOPLIST_FILE = "tca-demo/iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		146D16602864A19E00F59B0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.37.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		146D16612864A19E00F59B0C /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 146D16602864A19E00F59B0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 146D16412864A16200F59B0C /* Project object */;
 }
