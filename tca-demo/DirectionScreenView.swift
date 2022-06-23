@@ -112,7 +112,7 @@ struct DirectionScreenView: View {
     let store: Store<DirectionScreenState, DirectionScreenAction>
 
     var body: some View {
-        WithViewStore(store) { viewStore in
+        WithViewStore(store.stateless) { viewStore in
             NavigationView {
                 ScrollView {
                     VStack(spacing: 32) {
