@@ -1,50 +1,9 @@
 //
-//  Created by Nikita Borodulin on 23.06.2022.
+//  Created by Nikita Borodulin on 25.06.2022.
 //
 
-import Foundation
 import ComposableArchitecture
 import SwiftUI
-
-struct TicketsState: Equatable, Identifiable {
-
-    let id: String
-    let tickets: IdentifiedArrayOf<DirectionTicket>
-    var isSpecialModeEnabled: Bool
-
-    init(
-        id: String = "",
-        tickets: IdentifiedArrayOf<DirectionTicket> = [],
-        isSpecialModeEnabled: Bool = false
-    ) {
-        self.id = id
-        self.tickets = tickets
-        self.isSpecialModeEnabled = isSpecialModeEnabled
-    }
-}
-
-enum TicketsAction: Equatable {
-    case selectTicket(DirectionTicket.ID)
-    case toggleSpecialMode(Bool)
-}
-
-struct TicketsEnvironment {
-    var trackStatisticsEvent: (StatisticsEvent) -> Effect<Void, Never>
-}
-
-let ticketsReducer = Reducer<TicketsState, TicketsAction, TicketsEnvironment> { state, action, environment in
-    switch action {
-        case .selectTicket(let ticketID):
-            print("ticketsReducer handles .selectTicket")
-            guard let ticket = state.tickets[id: ticketID] else {
-                return .none
-            }
-            return environment.trackStatisticsEvent(.init()).fireAndForget()
-        case .toggleSpecialMode(let isEnabled):
-            state.isSpecialModeEnabled = isEnabled
-            return .none
-    }
-}
 
 struct TicketsView: View {
 
@@ -99,18 +58,5 @@ struct TicketView: View {
         .onTapGesture {
             onTap()
         }
-    }
-}
-
-struct DirectionTicket: Equatable, Identifiable {
-    let id: String
-    let price: String
-}
-
-extension DirectionTicket {
-
-    init(response: TicketsResponse.Ticket) {
-        self.id = response.id
-        self.price = response.price
     }
 }

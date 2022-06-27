@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1413B6D42866E12400F49DB1 /* HotelsReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6D32866E12400F49DB1 /* HotelsReducer.swift */; };
+		1413B6D62866E13D00F49DB1 /* DirectionHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6D52866E13D00F49DB1 /* DirectionHotel.swift */; };
+		1413B6D82866E15200F49DB1 /* HotelsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6D72866E15200F49DB1 /* HotelsState.swift */; };
+		1413B6DB2866E1B400F49DB1 /* TicketsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6DA2866E1B400F49DB1 /* TicketsState.swift */; };
+		1413B6DD2866E1D500F49DB1 /* TicketsReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6DC2866E1D500F49DB1 /* TicketsReducer.swift */; };
+		1413B6DF2866E1E900F49DB1 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6DE2866E1E900F49DB1 /* TicketsView.swift */; };
+		1413B6E12866E22300F49DB1 /* DirectionTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6E02866E22300F49DB1 /* DirectionTicket.swift */; };
+		1413B6E32866E29700F49DB1 /* DirectionScreenReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6E22866E29700F49DB1 /* DirectionScreenReducer.swift */; };
+		1413B6EC2866E60400F49DB1 /* DirectionScreenContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6EB2866E60400F49DB1 /* DirectionScreenContentView.swift */; };
+		1413B6F02866E6F000F49DB1 /* DirectionScreenContentReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6EF2866E6F000F49DB1 /* DirectionScreenContentReducer.swift */; };
+		1413B6F22866E78F00F49DB1 /* DirectionScreenContentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413B6F12866E78F00F49DB1 /* DirectionScreenContentState.swift */; };
 		146D164D2864A16200F59B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D164C2864A16200F59B0C /* AppDelegate.swift */; };
 		146D164F2864A16200F59B0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D164E2864A16200F59B0C /* SceneDelegate.swift */; };
 		146D16562864A16300F59B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146D16552864A16300F59B0C /* Assets.xcassets */; };
@@ -14,13 +25,23 @@
 		146D16622864A19E00F59B0C /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 146D16612864A19E00F59B0C /* ComposableArchitecture */; };
 		146D166A2864A21C00F59B0C /* StatisticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16642864A21C00F59B0C /* StatisticsEvent.swift */; };
 		146D166B2864A21C00F59B0C /* DirectionScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16652864A21C00F59B0C /* DirectionScreenView.swift */; };
-		146D166C2864A21C00F59B0C /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16662864A21C00F59B0C /* TicketsView.swift */; };
 		146D166D2864A21C00F59B0C /* DirectionScreenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16672864A21C00F59B0C /* DirectionScreenResponse.swift */; };
 		146D166E2864A21C00F59B0C /* DirectionScreenItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16682864A21C00F59B0C /* DirectionScreenItemView.swift */; };
 		146D166F2864A21C00F59B0C /* HotelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D16692864A21C00F59B0C /* HotelsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1413B6D32866E12400F49DB1 /* HotelsReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsReducer.swift; sourceTree = "<group>"; };
+		1413B6D52866E13D00F49DB1 /* DirectionHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionHotel.swift; sourceTree = "<group>"; };
+		1413B6D72866E15200F49DB1 /* HotelsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsState.swift; sourceTree = "<group>"; };
+		1413B6DA2866E1B400F49DB1 /* TicketsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsState.swift; sourceTree = "<group>"; };
+		1413B6DC2866E1D500F49DB1 /* TicketsReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsReducer.swift; sourceTree = "<group>"; };
+		1413B6DE2866E1E900F49DB1 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		1413B6E02866E22300F49DB1 /* DirectionTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionTicket.swift; sourceTree = "<group>"; };
+		1413B6E22866E29700F49DB1 /* DirectionScreenReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionScreenReducer.swift; sourceTree = "<group>"; };
+		1413B6EB2866E60400F49DB1 /* DirectionScreenContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionScreenContentView.swift; sourceTree = "<group>"; };
+		1413B6EF2866E6F000F49DB1 /* DirectionScreenContentReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionScreenContentReducer.swift; sourceTree = "<group>"; };
+		1413B6F12866E78F00F49DB1 /* DirectionScreenContentState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionScreenContentState.swift; sourceTree = "<group>"; };
 		146D16492864A16200F59B0C /* tca-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tca-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D164C2864A16200F59B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		146D164E2864A16200F59B0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +50,6 @@
 		146D165A2864A16300F59B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		146D16642864A21C00F59B0C /* StatisticsEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsEvent.swift; sourceTree = "<group>"; };
 		146D16652864A21C00F59B0C /* DirectionScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionScreenView.swift; sourceTree = "<group>"; };
-		146D16662864A21C00F59B0C /* TicketsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		146D16672864A21C00F59B0C /* DirectionScreenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionScreenResponse.swift; sourceTree = "<group>"; };
 		146D16682864A21C00F59B0C /* DirectionScreenItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionScreenItemView.swift; sourceTree = "<group>"; };
 		146D16692864A21C00F59B0C /* HotelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsView.swift; sourceTree = "<group>"; };
@@ -47,6 +67,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1413B6CE2866E0C700F49DB1 /* DirectionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1413B6E82866E58F00F49DB1 /* ContentState */,
+				1413B6E22866E29700F49DB1 /* DirectionScreenReducer.swift */,
+				146D16652864A21C00F59B0C /* DirectionScreenView.swift */,
+				146D16682864A21C00F59B0C /* DirectionScreenItemView.swift */,
+				1413B6E42866E2B500F49DB1 /* Models */,
+				1413B6E52866E2C400F49DB1 /* Submodules */,
+			);
+			path = DirectionScreen;
+			sourceTree = "<group>";
+		};
+		1413B6D02866E10000F49DB1 /* Hotels */ = {
+			isa = PBXGroup;
+			children = (
+				1413B6D32866E12400F49DB1 /* HotelsReducer.swift */,
+				1413B6D52866E13D00F49DB1 /* DirectionHotel.swift */,
+				1413B6D72866E15200F49DB1 /* HotelsState.swift */,
+				146D16692864A21C00F59B0C /* HotelsView.swift */,
+			);
+			path = Hotels;
+			sourceTree = "<group>";
+		};
+		1413B6D92866E1A800F49DB1 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				1413B6DA2866E1B400F49DB1 /* TicketsState.swift */,
+				1413B6DC2866E1D500F49DB1 /* TicketsReducer.swift */,
+				1413B6DE2866E1E900F49DB1 /* TicketsView.swift */,
+				1413B6E02866E22300F49DB1 /* DirectionTicket.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		1413B6E42866E2B500F49DB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				146D16642864A21C00F59B0C /* StatisticsEvent.swift */,
+				146D16672864A21C00F59B0C /* DirectionScreenResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1413B6E52866E2C400F49DB1 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				1413B6D02866E10000F49DB1 /* Hotels */,
+				1413B6D92866E1A800F49DB1 /* Tickets */,
+			);
+			path = Submodules;
+			sourceTree = "<group>";
+		};
+		1413B6E82866E58F00F49DB1 /* ContentState */ = {
+			isa = PBXGroup;
+			children = (
+				1413B6EB2866E60400F49DB1 /* DirectionScreenContentView.swift */,
+				1413B6EF2866E6F000F49DB1 /* DirectionScreenContentReducer.swift */,
+				1413B6F12866E78F00F49DB1 /* DirectionScreenContentState.swift */,
+			);
+			path = ContentState;
+			sourceTree = "<group>";
+		};
 		146D16402864A16200F59B0C = {
 			isa = PBXGroup;
 			children = (
@@ -68,12 +151,7 @@
 			children = (
 				146D164C2864A16200F59B0C /* AppDelegate.swift */,
 				146D164E2864A16200F59B0C /* SceneDelegate.swift */,
-				146D16682864A21C00F59B0C /* DirectionScreenItemView.swift */,
-				146D16672864A21C00F59B0C /* DirectionScreenResponse.swift */,
-				146D16652864A21C00F59B0C /* DirectionScreenView.swift */,
-				146D16692864A21C00F59B0C /* HotelsView.swift */,
-				146D16642864A21C00F59B0C /* StatisticsEvent.swift */,
-				146D16662864A21C00F59B0C /* TicketsView.swift */,
+				1413B6CE2866E0C700F49DB1 /* DirectionScreen */,
 				146D16632864A1F500F59B0C /* iOS */,
 			);
 			path = "tca-demo";
@@ -165,14 +243,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1413B6D82866E15200F49DB1 /* HotelsState.swift in Sources */,
+				1413B6F02866E6F000F49DB1 /* DirectionScreenContentReducer.swift in Sources */,
 				146D166B2864A21C00F59B0C /* DirectionScreenView.swift in Sources */,
+				1413B6D42866E12400F49DB1 /* HotelsReducer.swift in Sources */,
+				1413B6E12866E22300F49DB1 /* DirectionTicket.swift in Sources */,
 				146D164D2864A16200F59B0C /* AppDelegate.swift in Sources */,
+				1413B6DD2866E1D500F49DB1 /* TicketsReducer.swift in Sources */,
+				1413B6D62866E13D00F49DB1 /* DirectionHotel.swift in Sources */,
 				146D166D2864A21C00F59B0C /* DirectionScreenResponse.swift in Sources */,
 				146D166A2864A21C00F59B0C /* StatisticsEvent.swift in Sources */,
+				1413B6E32866E29700F49DB1 /* DirectionScreenReducer.swift in Sources */,
 				146D164F2864A16200F59B0C /* SceneDelegate.swift in Sources */,
+				1413B6DF2866E1E900F49DB1 /* TicketsView.swift in Sources */,
+				1413B6F22866E78F00F49DB1 /* DirectionScreenContentState.swift in Sources */,
+				1413B6DB2866E1B400F49DB1 /* TicketsState.swift in Sources */,
 				146D166F2864A21C00F59B0C /* HotelsView.swift in Sources */,
+				1413B6EC2866E60400F49DB1 /* DirectionScreenContentView.swift in Sources */,
 				146D166E2864A21C00F59B0C /* DirectionScreenItemView.swift in Sources */,
-				146D166C2864A21C00F59B0C /* TicketsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
